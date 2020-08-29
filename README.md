@@ -5,3 +5,9 @@
 ### Specification
 
 Implement an AI-controlled paddle (either the left or the right will do) such that it will try to deflect the ball at all times. Since the paddle can move on only one axis (the Y axis), you will need to determine how to keep the paddle moving in relation to the ball. Currently, each paddle has its own chunk of code where input is detected by the keyboard; this feels like an excellent place to put the code we need! Once either the left or right paddle (or both, if desired) try to deflect the paddle on their own, you’ve done it!
+
+### Solution
+
+Creating a function called updatePaddleAi which takes in the ball as a parameter. Changes the coordinates of the paddle so that the paddle is allways aligned with the center of the ball.
+
+![pong](https://user-images.githubusercontent.com/19653954/91644654-69ac6880-ea3e-11ea-9690-02051cdb723e.png)
