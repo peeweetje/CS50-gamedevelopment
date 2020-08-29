@@ -10,4 +10,4 @@ Implement an AI-controlled paddle (either the left or the right will do) such th
 
 Creating a function called updatePaddleAi which takes in the ball as a parameter. Changes the coordinates of the paddle so that the paddle is allways aligned with the center of the ball.
 
-![pong](https://user-images.githubusercontent.com/19653954/91644654-69ac6880-ea3e-11ea-9690-02051cdb723e.png)
+![pong](https://user-images.githubusercontent.com/19653954/91645631-fb1fd880-ea46-11ea-950e-1e58f195c0e5.png)
