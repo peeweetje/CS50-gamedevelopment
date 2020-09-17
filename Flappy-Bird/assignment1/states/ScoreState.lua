@@ -25,6 +25,9 @@ function ScoreState:update(dt)
     end
 end
 
+
+
+
 function ScoreState:render()
     -- simply render the score to the middle of the screen
     love.graphics.setFont(flappyFont)
@@ -33,5 +36,16 @@ function ScoreState:render()
     love.graphics.setFont(mediumFont)
     love.graphics.printf('Score: ' .. tostring(self.score), 0, 100, VIRTUAL_WIDTH, 'center')
 
+  --medal rewards
+    local reward = love.graphics.newImage('bronze.png')
+    if self.score >1 and self.score <= 3 then
+    reward = love.graphics.newImage('silver.png')
+    elseif self.score > 3 then
+    reward = love.graphics.newImage('gold.png')
+end
+
+    love.graphics.draw(reward, 160, 95)
+
+    
     love.graphics.printf('Press Enter to Play Again!', 0, 160, VIRTUAL_WIDTH, 'center')
 end
