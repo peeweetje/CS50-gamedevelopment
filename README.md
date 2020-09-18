@@ -25,4 +25,10 @@ Creating a function called updatePaddleAi which takes in the ball as a parameter
 
 ### Solution
 
+> - Add the medals to the game
+
+![Peewee Bird 18-9-2020 14_07_04](https://user-images.githubusercontent.com/19653954/93596234-44fe3d80-f9b9-11ea-874e-bb5c955981be.png)
+
+> - randomized the gapheight and space. Add a new screen for the pause.
+
 ![Peewee Bird 18-9-2020 14_07_04](https://user-images.githubusercontent.com/19653954/93596234-44fe3d80-f9b9-11ea-874e-bb5c955981be.png)
