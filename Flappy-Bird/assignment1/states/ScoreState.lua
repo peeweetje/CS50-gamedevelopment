@@ -35,6 +35,8 @@ function ScoreState:render()
 
     love.graphics.setFont(mediumFont)
     love.graphics.printf('Score: ' .. tostring(self.score), 0, 100, VIRTUAL_WIDTH, 'center')
+    love.graphics.setFont(mediumFont)
+    love.graphics.printf('You won a medal!!!', 38, 128, VIRTUAL_WIDTH, 'center')
 
   --medal rewards
     local reward = love.graphics.newImage('bronze.png')
@@ -45,6 +47,7 @@ function ScoreState:render()
 end
 
     love.graphics.draw(reward, 160, 95)
+
 
     
     love.graphics.printf('Press Enter to Play Again!', 0, 160, VIRTUAL_WIDTH, 'center')
