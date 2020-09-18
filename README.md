@@ -31,4 +31,4 @@ Creating a function called updatePaddleAi which takes in the ball as a parameter
 
 > - randomized the gapheight and space. Add a new screen for the pause.
 
-![Peewee Bird 18-9-2020 14_07_04](https://user-images.githubusercontent.com/19653954/93596234-44fe3d80-f9b9-11ea-874e-bb5c955981be.png)
+![Peewee Bird 18-9-2020 14_18_44](https://user-images.githubusercontent.com/19653954/93597022-a246be80-f9ba-11ea-8005-c93cb4ffc177.png)
